@@ -9,7 +9,7 @@ public class LoginPageObjects {
 	public WebDriver driver;
 	
 	private By Login = By.xpath("//a[text()='Log in']");
-	private By Email = By.xpath("//input[@id='Email']");
+	private By Email = By.xpath("//input[@id='']");
 	private By Password = By.xpath("//input[@id='Password']");
 	private By LoginButton = By.xpath("//input[@value='Log in']");
 	private By LogoutButton = By.xpath("//a[@href='/logout']");
