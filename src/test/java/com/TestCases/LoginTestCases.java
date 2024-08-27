@@ -18,7 +18,6 @@ public class LoginTestCases extends BaseClass {
 		LoginPageObjects lpo = new LoginPageObjects(driver);
 		
 		lpo.clickOnLogin().click();
-//		lpo.enterEmail().sendKeys(email);
 		lpo.enterEmail().sendKeys(RegisterTestCases.email); // static variable can be called by className.variableName
 		lpo.enterPassword().sendKeys(Constants.validPassword);
 		lpo.clickSubmit().click();
